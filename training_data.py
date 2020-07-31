@@ -3,7 +3,7 @@ from game import *
 def generate_training_data(display, clock):
     training_data_x = []
     training_data_y = []
-    training_games = 1000
+    training_games = 10
     steps_per_game = 2000
 
     for _ in tqdm(range(training_games)):
